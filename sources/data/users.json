@@ -1,0 +1,23 @@
+[
+    {
+        "name": "edu",
+        "email": "edu@gmail.com",
+        "password": "123456",
+        "avatar": "default.png",
+        "id": 1
+    },
+    {
+        "name": "gonza",
+        "email": "gonza@gmail.com",
+        "password": "1357911",
+        "avatar": "default.png",
+        "id": 2
+    },
+    {
+        "name": "aylu",
+        "email": "aylu@gmail.com",
+        "password": "654321",
+        "avatar": "default.png",
+        "id": 3
+    }
+  ]

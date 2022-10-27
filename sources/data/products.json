@@ -1,0 +1,23 @@
+[
+    {
+      "name": "One",
+      "price": 1000,
+      "category": "composteras",
+      "sku": 1,
+      "image": "default.png"
+    },
+    {
+      "name": "Two",
+      "price": 2000,
+      "category": "composteras",
+      "sku": 2,
+      "image": "default.png"
+    },
+    {
+      "name": "Three",
+      "price": 3000,
+      "category": "composteras",
+      "sku": 3,
+      "image": "default.png"
+    }
+  ]
