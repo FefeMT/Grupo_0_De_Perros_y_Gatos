@@ -13,7 +13,7 @@ Sitios de referencia:
 https://www.mercadolibre.com/ por los servicios que ofrecen.
 https://www.google.com/ por las funcionalidades implementadas.
 
-Trello:
+Trello: https://trello.com/b/CYQjzVWM/proyecto-dh
 
 
 Metodo de contacto: felipemtanoira@gmail.com
