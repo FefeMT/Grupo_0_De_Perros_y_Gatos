@@ -4,16 +4,25 @@ El sitio web se encargará de ser para sus usuarios una plataforma intuitiva en 
 
 Para dar mayor confianza al usuario, el sitio contará con un sistema de calificacione y reseñas.
 
-Integrantes del equipo:
 
-Martinez Tanoira Felipe. 20 años. GBA, Arg.
+
+Integrante del equipo:
+
+  Martinez Tanoira Felipe. 20 años. GBA, Arg.
+
+
 
 Sitios de referencia:
 
-https://www.mercadolibre.com/ por los servicios que ofrecen.
-https://www.google.com/ por las funcionalidades implementadas.
+  https://www.mercadolibre.com/ por los servicios que ofrecen.
+  https://www.google.com/ por las funcionalidades implementadas.
 
-Trello: https://trello.com/b/CYQjzVWM/proyecto-dh
+
+
+Trello:
+
+  https://trello.com/b/CYQjzVWM/proyecto-dh
+
 
 
 Metodo de contacto: felipemtanoira@gmail.com
