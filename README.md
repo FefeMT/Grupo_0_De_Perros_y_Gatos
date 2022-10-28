@@ -14,10 +14,11 @@ Integrante del equipo:
 
 Sitios de referencia:
 
-  https://www.mercadolibre.com/ por los servicios que ofrecen.
-  https://www.google.com/ por las funcionalidades implementadas.
-
-
+https://www.mercadolibre.com/ por los servicios que ofrecen.
+https://www.google.com/ por las funcionalidades implementadas.
+https://www.kompost.com.ar/ por su market target y la funcionalidad de su pagina.
+https://www.viverospinelli.com.ar/ por su pagina sensilla, estetica y funcional.
+https://ecohouse.org.ar/ su muy estetico formulario de donaciones.
 
 Trello:
 
