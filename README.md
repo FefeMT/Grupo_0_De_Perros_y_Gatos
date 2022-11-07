@@ -1,4 +1,4 @@
-# Proyecto
+# TodoMascotas
 Trabajo integrador Digital House 2022
 El sitio web se encargará de ser para sus usuarios una plataforma intuitiva en la cual puedan comprar productos de manera sencilla y segura. Está dirigido a personas de cualquier género, mayores de edad y clase social indistinta.
 
@@ -18,11 +18,11 @@ https://www.mercadolibre.com/ por los servicios que ofrecen.
 
 https://www.google.com/ por las funcionalidades implementadas.
 
-https://www.kompost.com.ar/ por su market target y la funcionalidad de su pagina.
+https://www.pedidosya.com.ar/ por su market target y la funcionalidad de su pagina.
 
-https://www.viverospinelli.com.ar/ por su pagina sensilla, estetica y funcional.
+https://tienda.mascotasya.com/ por sus funciones.
 
-https://ecohouse.org.ar/ su muy estetico formulario de donaciones.
+https://www.petitpetshop.com.ar/ por su estetica.
 
 Trello:
 
