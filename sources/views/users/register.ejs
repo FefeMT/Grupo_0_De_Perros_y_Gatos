@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('../partials/head.ejs') %>
+        <link rel="stylesheet" href="../css/register.css">
+        <title>Register</title>
+    </head>
+    <body>
+        <%- include('../partials/header.ejs') %>
+        <main>
+            <form action="/register" method="post">
+                <input type=“username” name="username" id="username" placeholder="Nombre de Usuario" required>
+              
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                
+                <input type = “password” name = "contraseña" id = "contraseña" minlength="8" placeholder="Contraseña" required>
+              
+                <input type = “password” name = "rcontraseña" id = "rcontraseña" minlenght="8" placeholder="Repetir Contraseña" required>
+              
+                <button type=“submit” class="boton-de-envio">Enviar</button>
+                <button type="reset" class="boton-de-borrar">Borrar</button>
+            </form>
+        </main>
+        <%- include('../partials/footer.ejs') %>
+    </body>
+    </html>
+</html>

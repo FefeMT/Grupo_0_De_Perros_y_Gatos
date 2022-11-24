@@ -28,4 +28,4 @@ let model = {
         return fs.writeFileSync(file,json)
     }
 }
-module.exports = model
+module.exports = model;

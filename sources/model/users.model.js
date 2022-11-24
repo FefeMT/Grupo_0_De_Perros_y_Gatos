@@ -9,10 +9,10 @@ let model = {
         let all = model.all();
         let last = all.pop();
         let user = {}
-        user.name = data.name;
-        user.price = parseInt(data.price);
-        user.category = data.category;
-        user.sku = last.sku + 1;
+        user.username = data.username;
+        user.email = data.email;
+        user.password = data.password;
+        user.id = last.id + 1;
         user.image = data.image
         return user;
     },

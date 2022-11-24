@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %>
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <form action="/login" method="post">
+            <input type="username" name="nombre-de-usuario" id="nombre-de-usuario" required placeholder="Nombre de Usuario">
+            <input type="password" name="contraseña" id="contraseña" minlenght="8" required placeholder="Ingresá tu Contraseña">
+            <label for="recordame">Recordame</label>
+            <input type="checkbox" name="recordame">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <%- include('../partials/footer.ejs') %>
+</body>
+</html>

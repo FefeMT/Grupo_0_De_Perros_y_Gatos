@@ -1,28 +1,38 @@
-const {index,one,write,generate} = require('../models/users.model');
+const {index,one,write,generate} = require('../model/users.model');
 const {unlinkSync} = require('fs');
 const {resolve} = require('path');
 const controller = {
-    login: (req,res) => {
-        res.render('login',{style:'login'});
-    },
-    register: (req,res) => {
-        res.render('register',{style:'register',})
-    },
+    login: (req,res) => res.render('users/login'),
+    register: (req,res) => res.render('users/register'),
     profile: (req,res) => {
-        res.render('profile',{style:'profile'})
+        let user = one(req.params.id)
+          if(user){
+              return res.render('users/profile/' + user)
+          }
+          return res.render('404')
     },
     save: (req,res) => {
-        let all = index();
-        req.body.avatar = req.files && req.files[0] ? req.files[0].filename : null
-        req.body.id = all.length > 0 ? all.pop().id + 1 : 1
-        let user = {...req.body};
-        all.push(user)
-        write(all)
-        return res.redirect('/users/profile/:user')
+        let result = validationResult(req);
+        if (!result.isEmpty()) {
+            let errors = result.mapped();
+            return res.render('users/register', { 
+                style: 'register',
+                errors: errors,
+                data: req.body
+            });
+        } else {
+            let all = index();
+            req.body.avatar = req.files && req.files[0] ? req.files[0].filename : null
+            req.body.id = all.length > 0 ? all.pop().id + 1 : 1
+            let user = {...req.body};
+            all.push(user)
+            write(all)
+            res.redirect('/users/profile/:user')
+        }
     },
     edit: (req,res) => {
         let product = one(req.params.producto)
-        return res.render('edit',{product})
+        return res.render('products/product-edit',{product})
     },
     update: (req,res)=>{
         let todos = all();

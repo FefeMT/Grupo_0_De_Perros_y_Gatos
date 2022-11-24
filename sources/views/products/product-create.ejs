@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs') %> 
+    <title>Create Product</title>
+    <link rel="stylesheet" href="/css/create.css">
+</head>
+<body>
+    <a href="/productos">Volver</a>
+    <% if(typeof errors != 'undefined') { %>
+        <p style="color:red">ERROR</p>
+        <ul>
+            <% for (let i = 0; i < errors.length; i ++) { %>
+                <li>
+                    <%= errors[i].msg %>
+                </li>
+            <% } %>
+        </ul>
+    <% } %>
+    <form action="/productos/guardar" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Nombre del Producto</legend>
+            <input type="text" name="product-name" id="product-name">
+        </fieldset>
+        <fieldset>
+            <legend>Precio</legend>
+            <input type="text" name="product-price" id="product-price">
+        </fieldset>
+        <fieldset>
+            <legend>Categoria del producto</legend>
+            <input type="radio" name="category" id="category-cat" value="cat">
+            <label for="category-cat">Cat</label>
+            <input type="radio" name="category" id="category-dog" value="dog">
+            <label for="category-dog">Dog</label>
+            <input type="radio" name="category" id="category-fish" value="fish">
+            <label for="category-fish">Fish</label>
+        </fieldset>
+        <fieldset>
+            <legend>Imagen del Producto</legend>
+            <input type="file" name="product-image" id="product-image">
+            <label for="product-image">Subir imagen</label>
+        </fieldset>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>

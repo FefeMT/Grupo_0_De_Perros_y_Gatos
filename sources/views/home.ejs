@@ -2,10 +2,95 @@
 <html lang="en">
 <head>
     <%- include('./partials/head.ejs') %>
+    <link rel="stylesheet" href="../css/home.css">
     <title>Home</title>
 </head>
 <body>
-    <h1>Este es el Home</h1>
-    <p>Esperbas algo mejor?</p>
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <section>
+            <h2>Basado en tu última visita</h2>
+            <ul>
+                <li>
+                    <picture class="imagen-cafetera"><img width= "375" src="../assets/products-pics/cafetera.jpg" alt="Cafetera Moulinex"></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$6.770</p>
+                        <p class="descuento">40% OFF</p>
+                        <p class="descripcion">Cafetera Moulinex</p>
+                    </article>
+                </li>
+                <li>
+                    <picture class="imagen-macbook"><img width= "375" src="../assets/products-pics/macbook.jpg" alt="MacBook Pro 2019"></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$230.000</p>
+                        <p class="descuento">20% OFF</p>
+                        <p class="descripcion">MacBook Pro 2019</p>
+                    </article>
+                </li>
+                <li>
+                    <picture class="imagen-s10"><img width= "375" src="../assets/products-pics/s10.jpg" alt="Samsung Galaxy S10"></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$70.500</p>
+                        <p class="descuento">10% OFF</p>
+                        <p class="descripcion">Samsung Galaxy S10</p>
+                    </article>
+                </li>
+                <li>
+                    <picture class="imagen-tv"><img width= "375" src="../assets/products-pics/tv.jpg" alt='SmartTv Samsung 43"'></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$23.200</p>
+                        <p class="descuento">5% OFF</p>
+                        <p class="descripcion">SmartTv Samsung 43"</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Ofertas</h2>
+            <ul>
+                <li>
+                    <picture class="imagen-cafetera"><img width= "375" src="../assets/products-pics/cafetera.jpg" alt="Cafetera Moulinex"></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$6.770</p>
+                        <p class="descuento">40% OFF</p>
+                        <p class="descripcion">Cafetera Moulinex</p>
+                    </article>
+                </li>
+                <li>
+                    <picture class="imagen-macbook"><img width= "375" src="../assets/products-pics/macbook.jpg" alt="MacBook Pro 2019"></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$230.000</p>
+                        <p class="descuento">20% OFF</p>
+                        <p class="descripcion">MacBook Pro 2019</p>
+                    </article>
+                </li>
+                <li>
+                    <picture class="imagen-s10"><img width= "375" src="../assets/products-pics/s10.jpg" alt="Samsung Galaxy S10"></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$70.500</p>
+                        <p class="descuento">10% OFF</p>
+                        <p class="descripcion">Samsung Galaxy S10</p>
+                    </article>
+                </li>
+                <li>
+                    <picture class="imagen-tv"><img width= "375" src="../assets/products-pics/tv.jpg" alt='SmartTv Samsung 43"'></img></picture>
+                    <article>
+                        <i class="fa-solid fa-truck"></i>
+                        <p class="precio">$23.200</p>
+                        <p class="descuento">5% OFF</p>
+                        <p class="descripcion">SmartTv Samsung 43"</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>
