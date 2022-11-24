@@ -1,8 +1,7 @@
-# TodoMascotas
+# De Perros y Gatos
 Trabajo integrador Digital House 2022
+De Perros y Gatos es un emprendimiento enfocado al cuidado, mantenimiento y entretenimiento de Perros y Gatos.
 El sitio web se encargará de ser para sus usuarios una plataforma intuitiva en la cual puedan comprar productos de manera sencilla y segura. Está dirigido a personas de cualquier género, mayores de edad y clase social indistinta.
-
-Para dar mayor confianza al usuario, el sitio contará con un sistema de calificacione y reseñas.
 
 
 
@@ -18,7 +17,7 @@ https://www.mercadolibre.com/ por los servicios que ofrecen.
 
 https://www.google.com/ por las funcionalidades implementadas.
 
-https://www.pedidosya.com.ar/ por su market target y la funcionalidad de su pagina.
+https://www.clubdeperrosygatos.cl/ por sus animaciones y logos.
 
 https://tienda.mascotasya.com/ por sus funciones.
 
