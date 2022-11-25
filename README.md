@@ -10,6 +10,13 @@ Integrante del equipo:
   Martinez Tanoira Felipe. 20 años. GBA, Arg.
 
 
+Paleta de colores:
+#C0DECE
+#343334
+#AFADAD
+#317476
+#FFFFFF
+
 
 Sitios de referencia:
 
